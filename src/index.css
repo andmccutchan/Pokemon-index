@@ -4,6 +4,30 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #87CEEB;
+}
+
+.poke-data-container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.stat-info {
+	width: 100%;
+	background-color: #F8F1E4;
+	border: 2px solid #E0E0E0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.stat-info ul {
+	margin-right: 20px;
+}
+
 .stat-name {
 	font-weight: bold;
 }
